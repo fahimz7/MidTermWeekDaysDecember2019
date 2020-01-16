@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/ArithmeticOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
   </component>
   <component name="ProjectId" id="1WSCwONo6Xf1jlG5opCe7jU7oOd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +49,20 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ArithmeticOperator">
+    <configuration name="ArithmeticOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemandsolutions.ArithmeticOperator" />
+      <module name="MidTermWeekDaysDecember2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -69,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArithmeticOperator" />
         <item itemvalue="Application.CsvReader" />
       </list>
     </recent_temporary>
@@ -113,9 +123,25 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="487" y="277" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.709@0.23.1280.709" timestamp="1579134000255" />
-    <state x="125" y="23" key="SettingsEditor" timestamp="1579134048964">
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1579144456220">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579144456220" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1579144456219">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579144456219" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1579144456218">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579144456218" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1579144456220">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579144456220" />
+    <state x="125" y="23" width="982" height="709" key="SettingsEditor" timestamp="1579134305317">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="125" y="23" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1579134048964" />
+    <state x="125" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1579134305317" />
   </component>
 </project>
