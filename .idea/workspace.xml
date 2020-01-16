@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/GradeSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/GradeSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/RandomNumberGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/RandomNumberGenerate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GradeSheet">
+  <component name="RunManager" selected="Application.RandomNumberGenerate">
     <configuration name="ArithmeticOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problemandsolutions.ArithmeticOperator" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -102,8 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomNumberGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemandsolutions.RandomNumberGenerate" />
+      <module name="MidTermWeekDaysDecember2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomNumberGenerate" />
         <item itemvalue="Application.GradeSheet" />
         <item itemvalue="Application.ArraySort" />
         <item itemvalue="Application.ArithmeticOperator" />
@@ -151,22 +165,22 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="487" y="277" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.709@0.23.1280.709" timestamp="1579134000255" />
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1579148278114">
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1579151787002">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579148278114" />
-    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1579148278113">
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579151787001" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1579151786999">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579148278113" />
-    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1579148278112">
+    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579151786999" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1579151786997">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579148278112" />
-    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1579148278113">
+    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579151786997" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1579151787000">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579148278113" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579151787000" />
     <state x="125" y="23" width="982" height="709" key="SettingsEditor" timestamp="1579134305317">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
