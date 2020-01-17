@@ -10,5 +10,22 @@ public class Permutation {
          * Write Java program to compute all Permutation of a String
          *
          */
+        String s = "ABC";
+        printPermutations(s, "");
+    }
+    static void printPermutations(String str, String st) {
+
+        if (str.length() == 0) {
+
+            System.out.print(st + " ");
+            return;
+        }
+
+        for (int i = 0; i < str.length(); i++) {
+
+            char ch = str.charAt(i);
+            String t = str.substring(0, i) + str.substring(i + 1);
+            printPermutations(t, st + ch);
+        }
     }
 }
