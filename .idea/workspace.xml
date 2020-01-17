@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/CollectionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/CollectionView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnitTestingStringProblem">
+  <component name="RunManager" selected="Application.CollectionView">
     <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.problems.Anagram" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -68,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
+    <configuration name="CollectionView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.CollectionView" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.problems.*" />
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionView" />
         <item itemvalue="JUnit.UnitTestingStringProblem" />
         <item itemvalue="JUnit.UnitTestingStringProblem.testisPalindrome" />
         <item itemvalue="Application.UnitTestingStringProblem" />
         <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -179,25 +177,25 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="487" y="277" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.709@0.23.1280.709" timestamp="1579134000255" />
-    <state width="1238" height="203" key="GridCell.Tab.0.bottom" timestamp="1579243775931">
+    <state width="1238" height="203" key="GridCell.Tab.0.bottom" timestamp="1579243897800">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579243775931" />
+    <state width="1238" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579243897800" />
     <state width="1238" height="172" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1579234298277" />
-    <state width="1238" height="203" key="GridCell.Tab.0.center" timestamp="1579243775929">
+    <state width="1238" height="203" key="GridCell.Tab.0.center" timestamp="1579243897798">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579243775929" />
+    <state width="1238" height="203" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579243897798" />
     <state width="1238" height="172" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1579234298276" />
-    <state width="1238" height="203" key="GridCell.Tab.0.left" timestamp="1579243775929">
+    <state width="1238" height="203" key="GridCell.Tab.0.left" timestamp="1579243897797">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579243775929" />
+    <state width="1238" height="203" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579243897797" />
     <state width="1238" height="172" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1579234298275" />
-    <state width="1238" height="203" key="GridCell.Tab.0.right" timestamp="1579243775930">
+    <state width="1238" height="203" key="GridCell.Tab.0.right" timestamp="1579243897799">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579243775930" />
+    <state width="1238" height="203" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579243897799" />
     <state width="1238" height="172" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1579234298276" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1579243637355">
       <screen x="0" y="0" width="1280" height="800" />
