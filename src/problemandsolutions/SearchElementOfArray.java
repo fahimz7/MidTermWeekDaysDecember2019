@@ -7,5 +7,13 @@ public class SearchElementOfArray {
 
     public static void main(String[] args) {
 
+
     }
 }
+
+
+
+
+
+
+
