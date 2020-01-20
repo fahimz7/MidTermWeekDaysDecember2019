@@ -1,7 +1,5 @@
 package algorithm;
 
-import databases.ConnectToSqlDB;
-
 import java.util.List;
 import java.util.Random;
 
@@ -19,18 +17,19 @@ public class Numbers {
 	 */
 
 	public static void main(String[] args) throws Exception {
-		
-		int [] num = new int[1000000];
+
+		int [] num = new int[10000];// it suppose to be 1M
 		storeRandomNumbers(num);
-		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+		//ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 		//Selection Sort
 		Sort algo = new Sort();
 		algo.selectionSort(num);
 		long selectionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of "+ num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " milli sec");
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
-        List<String> numbers = connectToSqlDB.readDataBase("selection_sort", "SortingNumbers");
-        printValue(numbers);
+		//  connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
+		//  List<String> numbers = connectToSqlDB.readDataBase("selection_sort", "SortingNumbers");
+		//   printValue(numbers);
+
 		int n = num.length;
 		randomize (num, n);
 		//Insertion Sort
@@ -38,7 +37,8 @@ public class Numbers {
 		long insertionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
 
-		//By following above, Continue for rest of the Sorting Algorithm.....
+		//By following above, Continue for rest of the Sorting Algorithm....
+
 		storeRandomNumbers(num);
 
 		randomize (num, n);
@@ -49,7 +49,7 @@ public class Numbers {
 		//Quick Sort
 		randomize(num, n);
 
-		algo.quickSort(num);
+		algo.quickSort(num, 0, n - 1);
 		long quickSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Quick Sort take: " + quickSortExecutionTime + " milli sec");
 
@@ -65,7 +65,7 @@ public class Numbers {
 		//Bucket Sort
 		randomize(num, n);
 
-		algo.bucketSort(num);
+		algo.bucketSort(num, 1000000);
 		System.out.println("Total Execution Time of " + num.length + " numbers in BucketSort take: " + algo.executionTime + " milli sec");
 
 
@@ -77,11 +77,15 @@ public class Numbers {
 		System.out.println("Total Execution Time of " + num.length + " numbers in Shell Sort take: " + shellSortExecutionTime + " milli sec");
 
 
+		//Come to conclusion about which Sorting Algo is better in given data set.
+
+		//Bucket Sort is better in given data set.
 
 
 		//Come to conclusion about which Sorting Algo is better in given data set.
 
 	}
+
 
 	public static void storeRandomNumbers(int [] num){
 		Random rand = new Random();
