@@ -15,7 +15,7 @@ public class FortuneEmployee {
 	 **/
 	public static void main(String[] args) {
 		EmployeeInfo e1 = new EmployeeInfo("name", 101);
-		e1.getDept("Fariha");
+		e1.getDept("Fahim");
 		e1.farewell(01/01/2001);
 		e1.setSalary(50000.00);
 		e1.setEmployeeId(101);
