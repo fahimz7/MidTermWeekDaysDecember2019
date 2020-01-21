@@ -19,7 +19,7 @@ public class ArithmeticOperator {
         System.out.println("The sum of two value is"+" "+ (num+num1));
         System.out.println("The subtraction of two value is"+" "+ (num - num1));
         System.out.println("The product of two value is"+" "+num1*num);
-        System.out.println("The division of two value is"+" "+num1/num);
+        System.out.println("The division of two value is"+" "+ num/num1);
 
 
 
