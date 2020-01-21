@@ -7,7 +7,7 @@ public class RandomNumberGenerate {
 
     public static void main(String[] args) {
         Random rdom = new Random();
-        int num = 0;
+        int num = 1;
         while (true) {
             num = rdom.nextInt(9);
             if (num != 0) break;
